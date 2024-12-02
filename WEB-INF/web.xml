@@ -1,0 +1,62 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+    version="3.0">
+    <servlet>
+        <servlet-name>insert</servlet-name>
+        <servlet-class>insert</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>insert</servlet-name>
+        <url-pattern>/insert</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>status</servlet-name>
+        <servlet-class>status</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>status</servlet-name>
+        <url-pattern>/status</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>update</servlet-name>
+        <servlet-class>update</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>update</servlet-name>
+        <url-pattern>/update</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>contador</servlet-name>
+        <servlet-class>contador</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>contador</servlet-name>
+        <url-pattern>/contador</url-pattern>
+    </servlet-mapping>
+
+        <servlet>
+        <servlet-name>grafico</servlet-name>
+        <servlet-class>grafico</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>grafico</servlet-name>
+        <url-pattern>/grafico</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+    <servlet-name>todasGraficas</servlet-name>
+    <servlet-class>todasGraficas</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>todasGraficas</servlet-name>
+        <url-pattern>/todasGraficas</url-pattern>
+    </servlet-mapping>
+</web-app>
